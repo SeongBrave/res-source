@@ -50,20 +50,20 @@
 .mall-cnt .mall-img{ position:absolute; right:0px; bottom:0;}
 
 /** road-box **/
-.road-div{ background:#eaa79c; height:440px; width:100%; clear:both;}
+.road-div{ background:#eaa79c; height:460px; width:100%; clear:both;}
 .road-div .road-box{ width:1024px; height:auto; margin:0 auto;padding-top:55px;}
-.road-box .road-div1{ float:left; width:500px; height:320px; text-align:center;position:relative; z-index:10; }
-.road-box .road-div2{ float:left; width:500px;height:320px; margin:0 0 0 24px;position:relative;z-index:10;}
+.road-box .road-div1{ float:left; width:334px; height:355px; text-align:center;position:relative; z-index:10; }
+.road-box .road-div2{ float:left; width:334px;height:355px; margin:0 11px;position:relative;z-index:10;}
 .road-box .road-div3{ float:right; width:334px;height:355px;position:relative;z-index:10;}
 .road-box .road-div1 .road-cnt,.road-box .road-div2 .road-cnt,.road-box .road-div3 .road-cnt{ position:absolute;top:0; left:0; width:100%; height:auto; z-index:100;}
 .road-box .road-div1 .road-img,.road-box .road-div2 .road-img,.road-box .road-div3 .road-img{ width:100%; position:relative; z-index:11; }
-.road-div1 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:12%; text-align:center;}
+.road-div1 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:22%; text-align:center;}
 .road-div1 .road-line{border-top: solid 2px #212121; width:45%; height:0px; line-height:0px; margin:15px  auto 15px auto; text-align:left;}
-.road-div1 .road-content{ text-align:center; width:96%; margin:0 auto 9%  auto;}
+.road-div1 .road-content{ text-align:center; width:96%; margin:0 auto 13%  auto;}
 .road-div1 .road-content p{font-size:16px; line-height:30px; color:#212121;}
-.road-div2 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:12%; text-align:center;}
+.road-div2 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:20%; text-align:center;}
 .road-div2 .road-line{border-top: solid 2px #212121; width:45%; height:0px; line-height0px; margin:15px auto 15px auto; text-align:left;}
-.road-div2 .road-content{ text-align:center; width:96%; margin:0 auto 9%  auto;}
+.road-div2 .road-content{ text-align:center; width:96%; margin:0 auto 13%  auto;}
 .road-div2 .road-content p{font-size:16px; line-height:30px; color:#212121;}
 .road-div3 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:20%; text-align:center;}
 .road-div3 .road-line{border-top: solid 2px #212121; width:45%; height:0px; line-height:0px; margin:15px  auto 15px auto;text-align:left;}

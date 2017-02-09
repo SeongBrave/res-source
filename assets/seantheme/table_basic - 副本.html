@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8"/>
+  <title>Api 在线管理</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <meta content="api" name="description"/>
+  <meta content="cc" name="author"/>
+  <!-- ================== BEGIN BASE CSS STYLE ================== -->
+  <link href="assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet"/>
+  <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="assets/css/animate.min.css" rel="stylesheet"/>
+  <link href="assets/css/style.min.css" rel="stylesheet"/>
+  <link href="assets/css/style-responsive.min.css" rel="stylesheet"/>
+  <link href="assets/css/theme/default.css" rel="stylesheet" id="theme"/>
+  <!-- ================== END BASE CSS STYLE ================== -->
+
+  <!-- ================== BEGIN BASE JS ================== -->
+  <script src="assets/plugins/pace/pace.min.js"></script>
+  <!-- ================== END BASE JS ================== -->
+</head>
+<body style="overflow: hidden">
+
+<div id="page-loader" class="fade in"><span class="spinner"></span></div>
+<div id="header" class="header navbar navbar-default navbar-fixed-top">
+  <!-- begin container-fluid -->
+  <div class="container-fluid">
+    <!-- begin mobile sidebar expand / collapse button -->
+    <div class="navbar-header">
+      <a href="javascript:;" class="navbar-brand"><span class="navbar-logo"></span> Api 在线管理</a>
+    </div>
+    <!-- end mobile sidebar expand / collapse button -->
+
+    <!-- begin header navigation right -->
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown navbar-user">
+        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+          <img src="assets/img/user-13.jpg" alt=""/>
+          <span class="hidden-xs">Adam Schwartz</span> <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu animated fadeInLeft">
+          <li class="arrow"></li>
+          <li><a href="javascript:;">修改密码</a></li>
+          <li class="divider"></li>
+          <li><a href="javascript:;">退出</a></li>
+        </ul>
+      </li>
+    </ul>
+    <!-- end header navigation right -->
+  </div>
+  <!-- end container-fluid -->
+</div>
+<div id="page-container" class="fade page-sidebar-fixed page-header-fixed">
+  <!-- begin row -->
+  <div class="row">
+    <!-- begin col-4 -->
+    <div class="col-md-4">
+      <!-- begin panel -->
+      <div class="navbar-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="输入关键字" />
+          <button type="button" class="btn btn-search"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+      <div class="panel panel-inverse" data-sortable-id="table-basic-1">
+        <div class="panel-heading">
+          <div class="panel-heading-btn">
+            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i
+                class="fa fa-expand"></i></a>
+            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" id="rebtn" data-click="panel-reload"><i
+                class="fa fa-repeat"></i></a>
+          </div>
+          <h4 class="panel-title">接口</h4>
+        </div>
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>类名</th>
+              <th>注释</th>
+              <th>作者</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1</td>
+              <td>Nicky Almera</td>
+              <td>nicky@hotmail.com</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- end panel -->
+    </div>
+    <!-- end col-4 -->
+
+    <!-- begin col-8 -->
+    <div class="col-md-8 border-left-1">
+      <!-- begin panel -->
+      <div class="panel panel-inverse" data-sortable-id="table-basic-2">
+        <div class="panel-heading">
+          <div class="panel-heading-btn">
+            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i
+                class="fa fa-expand"></i></a>
+            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i
+                class="fa fa-arrow-circle-o-down"></i></a>
+          </div>
+          <h4 class="panel-title">方法</h4>
+        </div>
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>方法名</th>
+              <th>注释</th>
+              <th>作者</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1</td>
+              <td>Nicky Almera</td>
+              <td>nicky@hotmail.com</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- end panel -->
+    </div>
+    <!-- end col-8 -->
+  </div>
+  <!-- end row -->
+
+  <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i
+      class="fa fa-angle-up"></i></a>
+</div>
+
+
+<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="assets/crossbrowserjs/html5shiv.js"></script>
+<script src="assets/crossbrowserjs/respond.min.js"></script>
+<script src="assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+<!-- ================== END BASE JS ================== -->
+
+<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+<script src="assets/js/apps.min.js"></script>
+<!-- ================== END PAGE LEVEL JS ================== -->
+
+<script>
+  $(document).ready(function () {
+    App.init();
+	$("#rebtn").bind("click",function(){
+		alert(1);
+	})
+  });
+</script>
+</body>
+
+</html>
+

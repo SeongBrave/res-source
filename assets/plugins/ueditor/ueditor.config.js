@@ -37,13 +37,22 @@
     ,
     toolbars: [
       [
-        'undo', 'redo','removeformat', 'formatmatch','autotypeset', '|',
-		'bold', 'italic', 'underline', 'fontborder', 'strikethrough','blockquote', 'pasteplain', 'forecolor','backcolor','lineheight','customstyle','paragraph', 'fontfamily', 'fontsize','|',
-		'insertorderedlist', 'insertunorderedlist','horizontal', 'date', 'time','|',
-        
-        'simpleupload','wordimage','justifyleft', 'justifycenter', 'justifyright', 'justifyjustify','imagenone', 'imageleft', 'imageright', 'imagecenter','|',
-        'inserttable', 'deletetable', 'insertparagraphbeforetable', 'insertrow', 'deleterow', 'insertcol','deletecol', 'mergecells', 'mergeright', 'mergedown', 'splittocells', 'splittorows', 'splittocols', '|',
-        'drafts'
+        'undo', 'redo', '|','link',
+        'bold', 'italic', 'underline', 'fontborder', 'strikethrough',
+        'superscript', 'subscript', 'removeformat', 'formatmatch',
+        'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor',
+        'backcolor', 'insertorderedlist', 'insertunorderedlist',
+        'selectall', 'cleardoc', '|',
+        'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+        'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+        'indent', '|',
+        'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify',
+        '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+        'simpleupload', 'pagebreak', '|',
+        'horizontal', 'date', 'time', 'spechars', '|',
+        'inserttable', 'deletetable', 'insertparagraphbeforetable', 'insertrow', 'deleterow', 'insertcol',
+        'deletecol', 'mergecells', 'mergeright', 'mergedown', 'splittocells', 'splittorows', 'splittocols', 'charts', '|',
+         'searchreplace', 'drafts'
       ]
     ]
     //当鼠标放在工具栏上时显示的tooltip提示,留空支持自动多语言配置，否则以配置值为准

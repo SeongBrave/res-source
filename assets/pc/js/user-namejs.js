@@ -17,7 +17,7 @@ function EV_modeAlert(msgID, callback){
 	
 	$(".progress-bar").addClass("progress-bar2");
 }  
-
+  
 //关闭对话窗口   
 function EV_closeAlert(){  
     var msgObj=document.getElementById(EV_MsgBox_ID);  

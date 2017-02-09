@@ -48,7 +48,7 @@ a:hover,a:link,a:visited,a:active,a:focus {text-decoration:none;}
 .nav-box{background:#fff; width:100%; float:left;display:block;padding:0px;background:#fff; height:20%; position:relative; margin:0 auto;}
 .menu-ul{ width:570px; margin:0 auto; float:left;}
 .menu-ul li{float:left;overflow:hidden;position:relative;text-align:center;}
-.menu-ul li a{display:block;width:90px;font-size:15px;text-decoration:none;cursor:pointer;font-weight:bold;color:#394373;}
+.menu-ul li a{display:block;width:80px;font-size:15px;text-decoration:none;cursor:pointer;font-weight:bold;color:#394373;}
 .menu-ul li a:hover{text-decoration:none;}
 .menu-ul li.on a{background:#f47866; color:#fff;}
 .start-ul li{line-height:80px;}

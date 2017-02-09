@@ -26,12 +26,6 @@ textarea{overflow:auto;resize:none;}
 .Header { float:left; width:100%; padding:3.5% 0; text-align:center; background:#ff6152;}
 .ww100{float:left; width:100%; height:auto; text-align:center;  background:#fff}
 .Top{ width:100%; height:auto; float:left; padding:0.5em 0;}
-.attention{ float:left; width:100%; height:auto; background-color:#353c46; position:relative; padding:1em 0; z-index:0;}
-.attention p{ font-size:1.2em; color:#fff; margin-left:2%; line-height:1.6em;}
-.attention p span{ color:#ff3c2a;}
-.attention a.attention-a{-moz-border-radius:0.2em; -webkit-border-radius:0.2em; border-radius:0.2em; background-color:#ff3c2a; text-align:center; display:block; color:#fff; font-size:1.1em; padding:0.6em 0.8em; position:absolute;top:1.3em; right:3%; z-index:3}
-
-
 /** 首页/发现美容店/我的美容店/相似宝贝 **/
 .Loga{ width:18%; float:left; margin:1% 0 0 1.5%;overflow:hidden; font-size:1.4em; line-height:1.7em; height:1.7em;  display:block; text-align:left;}
 .Loga i{ width:0.7em; display:block; float:left; margin:10% 4% 0 0;}
@@ -171,8 +165,8 @@ textarea{overflow:auto;resize:none;}
 .Cont-Right { float:right; width:65%; height:auto;}
 .Cont-left-Img { float:left; width:32%; min-height:11.5em; height:100%; border:1px solid #babdc3;-moz-border-radius:0.3em; -webkit-border-radius:0.3em; border-radius:0.3em; overflow:hidden;}
 .Cont-left-Img img { width:100%;}
-.Content-Right-L { float:left; width:100%; height:auto;}
-.Content-Right-L h6 { font-size:1.5em; color:#616161; font-weight:300; width:100%;float:left;}
+.Content-Right-L { float:left; width:80%; height:auto;}
+.Content-Right-L h6 { font-size:1.5em; color:#616161; font-weight:300; width:100%; max-height:1.314em; overflow:hidden; float:left;}
 .Content-Right-L p { font-size:1.2em; color:#bdbdbd; float:left; width:100%; line-height:2em;}
 .Content-Right-L p span { font-size:1.0em; color:#bdbdbd}
 .Content-Right-L p i { font-size:1.0em; color:#bdbdbd; margin-left:5%;}
@@ -649,11 +643,6 @@ textarea{overflow:auto;resize:none;}
 .Submit-box input{ width:99.7%; height:auto; background:#ff6152; color:#fff; font-size:1.8em; -moz-border-radius:0.15em; -webkit-border-radius:0.15em;border-radius:0.15em; border:none; padding:0.7em 0;}
 
 /** 我的觅粉 **/
-.Fans-header { width:100%; height:auto; float:left; margin:0;}
-.Fans-header strong { width:90.6%; height:auto; float:left; padding:2.1em 4.7%; background:#fff; border-bottom:1px solid #e0e0e0; display:block; font-weight:normal; font-style:normal;}
-.Fans-header strong  span { font-weight:300; font-size:1.4em; color:#424242; border-left:0.2em solid #ff6152; padding-left:2%;}
-.Fans-header strong  i{font-weight:normal; font-style:normal;font-size:1.4em;  color:#ff6152;}
-
 .Fans { width:100%; height:auto; float:left; margin-top:0.8em;}
 .Fans-box { width:87.4%; height:auto; padding:0 6.3%; background:#fff; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; float:left; margin-bottom:0.5em;}
 .Fans-Top { width:100%; height:auto; float:left; padding:1em 0; border-bottom:1px solid #e0e0e0;}
@@ -922,11 +911,9 @@ textarea{overflow:auto;resize:none;}
 /** 个人中心 **/
 .Personal { float:left; width:100%; height:auto; background:#fff; margin-bottom:7em; margin-top:1em;}
 .Personal td { text-align:center;}
-.Personal td a { padding:2em 0; width:100%; float:left; text-align:center; position:relative;}
+.Personal td a { padding:2em 0; width:100%; float:left; text-align:center;}
 .Personal td a p { font-size:1.2em; color:#424242; text-align:center; line-height:2.6em;}
 .Personal td a img { width:33%;}
-.Personal td a i{-moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; background:#ff6152;  text-align:center; width:2.1em; height:2.1em; font-style:normal; display:block; font-weight:normal; position:absolute;top:12%;right:19%; text-align:center;}
-.Personal td a i span{ display:block; margin-top:0.7em;font-size:1.0em; color:#fff;}
 
 /** 支付成功 **/
 .Success-box { float:left; width:100%; height:auto;}
@@ -1372,33 +1359,3 @@ position:static;
 .codeshare-account li img { width:40%; height:auto;}
 .codeshare-account li p { font-size:1em; color:#000; float:left; width:100%; text-align:center; line-height:2em;}
 
-/** 使用协议 **/
-.user-agreement{ display:none; width:90%; background:#fff;-moz-border-radius:0.5em;-webkit-border-radius:0.5em;-o-border-radius:0.5em;border-radius:0.5em;position: absolute;top:3%;left:5%;}
-.user-agreement .a-close{ width:2.5em; height:2.5em; background:url(../images/deleteimg-02.png) center center no-repeat; background-size:2.3em; display:block; position:absolute;right:-1.0em;top:-1.0em;}
-.user-agreement-text{ padding-top:0.9em; margin-bottom:0.8em;}
-.user-agreement-text h2{ color:#212121; border-bottom: solid 1px #e0e0e0; width:90%; padding-bottom:0.6em; margin-bottom:0.6em; margin-left:auto; margin-right:auto; text-align:center; font-size:1.6em; font-weight:800;}
-.user-agreement-cnt{width:90%; padding-bottom:0.6em; padding-right:2.5%; margin-left:5%; margin-right:2.5%; text-align:center; text-align:left; height:300px; overflow-y:scroll;}
-.user-agreement-cnt p{text-align:left; font-size:1.2em; line-height:1.8em; color:#212121; margin-bottom:0.6em;}
-.user-agreement-cnt p span{ color:#b30f32; text-decoration:underline;}
-.user-agreement-cnt h4{text-align:left; font-size:1.2em; line-height:1.8em; font-weight:800; color:#212121; margin-bottom:0.3em;}
-.user-agreement-bottom{width:90%; height:auto; padding-top:1.2em; padding-bottom:1.2em; margin-left:auto; margin-right:auto; text-align:center; border-top: solid 1px #e0e0e0; }
-.user-agreement-bottom input{border:none; background:#e34533;-moz-border-radius:0.5em;-webkit-border-radius:0.5em;-o-border-radius:0.5em;border-radius:0.5em; width:100%; height:2.4em; line-height:2.4em; font-size:1.6em; color:#fff; text-align:center; margin-left:auto; margin-right:auto;}
-
-
-/** 二维码关注 **/
-.codeon{ float:left; width:100%;}
-.codeon .codeon-header{ float:left; width:100%; background-color:#fff; border-bottom: 1px solid #dcdcdc; padding:1em 0; text-align:center;}
-.codeon-width{float: left;height: auto;margin: 0 0 0 12%;text-align: center;width: 76%;}
-.codeon .codeon-header .codeon-left{ float:left;margin-left:8%;width: 28%;}
-.codeon .codeon-header .codeon-left img{ width:100%;}
-.codeon .codeon-header .codeon-right{ float:left; width:60%; margin-left:4%; text-align:left;}
-.codeon .codeon-header .codeon-right i{ font-style:normal; font-weight:normal; font-size:1.3em; color:#ff6152;}
-.codeon .codeon-header .codeon-right span{ font-style:normal; font-weight:normal; font-size:1.4em; color:#ff6152; margin-left:2%;}
-.codeon .codeon-header .codeon-right strong{ font-style:normal; font-weight:normal; font-size:1.3em; color:#939393; line-height:1.6em;}
-.codeon .codeon-header .codeon-right .codeon-p{ margin-top:0.9em;}
-.codeon .condeon-text{ margin-top:10%;}
-.codeon .condeon-text .codeon-img{background: #fff;border: 1px solid #bdbdbd;-moz-border-radius:0.5em; -webkit-border-radius:0.5em; border-radius:0.5em; float: left; padding: 11%;text-align: center;width: 78%;}
-.codeon .condeon-text .codeon-img img{ width:100%;}
-.codeon .condeon-text .condeon-info{ margin-top:8%; margin-bottom:10%; float:left; width:100%; text-align:center;}
-.codeon .condeon-text .condeon-info p span{ font-size:1.4em; color:#ff6152;}
-.codeon .condeon-text .condeon-info p strong{ font-style:normal; font-weight:normal; font-size:1.2em; color:#939393; line-height:2.2em;}

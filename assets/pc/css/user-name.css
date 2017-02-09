@@ -70,11 +70,11 @@ textarea{overflow:auto;resize:none;}
 .retrieve-cnt .li2.error-div .div-input span{color: #f9644e;display:block;float: left;font-size:16px;line-height:46px; width:21%;background: #f8f8f8;border-top: 1px solid #d4d7da;border-bottom: 1px solid #d4d7da;text-align:right; padding-right:1%;}
 
 /** 注册 **/
-.registered-three{ background:url(../images/emekerimg_41.jpg) center  top no-repeat; width:100%; height:960px; clear:both; padding-top:70px; margin:0 auto; position:relative;}
+.registered-three{ background:url(../images/emekerimg_41.jpg) center  center no-repeat; width:100%; height:945px; clear:both; padding-top:70px; margin:0 auto;}
 .registered-box{ margin:0 auto; width:564px; height:auto;}
 .registered-box .registered-nav{ float:left; width:100%; height:70px;-moz-border-top-left-radius:5px;-webkit-border-top-left-radius:5px;-o-border-top-left-radius:5px;border-top-left-radius:5px;-moz-border-top-right-radius:5px;-webkit-border-top-right-radius:5px;-o-border-top-right-radius:5px;border-top-right-radius:5px;}
 .registered-box .registered-nav ul{ float:left;background:#4f5e70; width:100%; height:70px;-moz-border-top-left-radius:5px;-webkit-border-top-left-radius:5px;-o-border-top-left-radius:5px;border-top-left-radius:5px;-moz-border-top-right-radius:5px;-webkit-border-top-right-radius:5px;-o-border-top-right-radius:5px;border-top-right-radius:5px; }
-.registered-box .registered-nav ul li{ float:left; width:50%; height:70px; text-align:center; line-height:70px;}
+.registered-box .registered-nav ul li{ float:left; width:188px; height:70px; text-align:center; line-height:70px;}
 .registered-box .registered-nav ul li a{ display:block;}
 .registered-box .registered-nav ul li img{ margin-right:5px; vertical-align:top; margin-top:22px; width:25px;}
 .registered-box .registered-nav ul li span{ font-size:20px; color:#fff; _display:inline-block;}
@@ -228,24 +228,5 @@ select.ui-select {height: 60px; vertical-align: top;font: 100 16px/30px;}
 .registered-cnt3 .li9.error-div,.registered-cnt3 .li10.error-div{ position:relative;}
 .registered-cnt3 .li9.error-div input,.registered-cnt3 .li10.error-div  input{ padding-right:105px; width:183px;}
 .registered-cnt3 .li9.error-div span,.registered-cnt3 .li10.error-div  span{color: #f9644e;display:block;font-size:16px;line-height:46px; width:100px; position:absolute;left:190px;top:0;text-align:right;}
-
-
-/********** 使用协议 **********/
-.registered-cnt1 ul li.li8 a.user-agreement-a:hover i,.registered-cnt2 ul li.li9 a.user-agreement-a:hover i,
-.registered-cnt3 ul li.li11 a.user-agreement-a:hover i {color: #f9644e;}
-.user-agreement{ border: solid 4px #f0c0ba; background:#fff; width:70%; height:auto; margin-left:auto; margin-right:auto; overflow:hidden;display:none;text-align:center; }
-.user-agreement a.a-close{ width:30px; height:30px; background:url(../images/userimg_20_01.png) center center no-repeat; position:absolute; top:4px; right:4px;}
-.user-agreement a.a-close:hover{background:url(../images/userimg_20.png) center center no-repeat;}
-.user-agreement-text{ margin:14px 25px 10px 45px; width:auto; height:auto; }
-.user-agreement-text h2{ font-size:24px;font-weight:600; color:#212121; text-align:center; margin-right:20px;padding-bottom:14px; border-bottom: solid 1px #212121;}
-.user-agreement-cnt{ margin-top:18px; text-align:left;padding-right:20px; height:350px; overflow-y:scroll;}
-.user-agreement-cnt h4{ font-size:16px; color:#212121;font-weight:600; line-height:34px;}
-.user-agreement-cnt h3{ font-size:20px; color:#212121; text-align:center; font-weight:600; margin-bottom:14px;}
-.user-agreement-cnt p{ font-size:16px; color:#212121; margin-bottom:20px; font-weight:normal; line-height:30px;}
-.user-agreement-cnt p span{ color:#b30f32; text-decoration:underline;}
-.user-agreement-botoom{ background:#f7f7f7; width:100%; padding-top:20px; padding-bottom:20px; text-align:center; margin-top:20px;}
-.user-agreement-botoom input{ border:none; background:#e76d60;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px; width:45%; height:50px; line-height:50px; font-size:16px; color:#fff; margin-left:auto; margin-right:auto;}
-.user-agreement-botoom input:hover{ background:#e34533; }
-
 
 
