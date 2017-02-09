@@ -1,0 +1,45 @@
+<!—A标签跳转—>
+ <script>
+	$(function(){
+			$("a").click(function(){
+				 location.href =$(this).attr("href")	
+			})
+	})
+</script>
+
+<ul>
+            	<li class="on"><a href="index.html">
+                	<span class="home-box"></span>
+                    <p>首页</p>
+                </a></li>
+                <li><a href="收藏.html">
+                	<span class="sat-box"></span>
+                    <p>收藏</p>
+                </a></li>
+                <li><a href="我要预约.html">
+                	<span class="time-box"></span>
+                    <p>预约</p>
+                </a></li>
+                <li><a href="个人中心.html">
+                	<span class="user-box"></span>
+                    <p>我的</p>
+                </a></li>
+            </ul>
+
+
+onclick="window.location.href='商品详情.html'"
+
+
+
+<li class="on all-nav" style="width:20%;"><a href="#">全部</a></li>
+
+<li class="deliver-nav" style="width:26%;"><a href="我的订单-待发货.html">待发货</a></li>
+
+<li class="goods-nav" style="width:26%;"><a href="我的订单-待收货.html">待收货</a></li>
+
+<li class="comments-nav" style="width:28%;"><a href="我的订单-待评论.html" style="margin-left:18%; margin-right:0;">待评论</a></li>
+
+
+.Switch-Cont-box li:last-child{border-bottom:none;}
+
+

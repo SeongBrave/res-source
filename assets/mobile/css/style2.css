@@ -1,0 +1,71 @@
+
+#holder {
+	width: 100%;
+}
+
+#holder > div {
+	clear: both;
+	float: left;
+	width: 96%;
+}
+
+label {
+	display: inline;
+}
+
+.regular-checkbox {
+	display: none;
+}
+
+.regular-checkbox + label {
+	background-color:#fff;
+	border: 1px solid #ff6152;
+	width:1.8em; height:1.8em;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	border-radius:100px;
+	
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+	box-shadow: 0 1px 2px #ff6152;
+}
+
+.regular-checkbox:checked + label {
+	background-color: #fff;
+	border: 1px solid #ff6152;
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+	content: '\●';
+	font-size: 2.0em;
+	position: absolute;
+	top:0; left:0;
+	line-height:0.8em;
+	color: #ff6152;
+	width:100%; height:100%; text-align:center;
+}
+
+
+.big-checkbox + label {
+	padding: 18px;
+}
+
+.big-checkbox:checked + label:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+.tag {
+	font-family: Arial, sans-serif;
+	width: 200px;
+	position: relative;
+	top: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+}
+

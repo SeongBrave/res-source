@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* banner-box */
+#slidesImgs li a{ display:block;height: 655px;width: 100%;}
+.banner-li1{ background:url(../images/bannerimg_01.jpg) center no-repeat;  width:100%; height:655px;}
+.banner-li1 .div-absolute{position:absolute; top:0;right:0px;padding-top:250px; width:540px;}
+.banner-li1 .libox-title  p{ font-size:35px; color:#212121; text-align:center;}
+.banner-li1 .qr-code{padding-top:50px; text-align:center; float:right; width:100%;}
+.banner-li1 .qr-code img{ width:100px;text-align:center; float:none;}
+.banner-li1 .libox-a {padding-top:50px; text-align:right; float:right; clear:both;margin-right:190px;_margin-right:115px;}
+.banner-li1 .libox-a a{background:#f47866; font-size:22px; color:#fff; display:block; width:160px;line-height:40px; height:40px; text-align:center; text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px; }
+
+.banner-li2{ background:url(../images/bannerimg_02.jpg) center no-repeat;  width:100%; height:655px;}
+.banner-li2 .div-absolute{position:absolute; top:0;left:0px;padding-top:210px;}
+.banner-li2 .libox-title p{font-size:35px; color:#fff; text-align:left;}
+.banner-li2 .libox-cnt{ padding-top:40px;float:left; width:100%;}
+.banner-li2 .libox-cnt p{text-align:left; font-size:20px; color:#fff; line-height:34px; }
+.banner-li2 .libox-a { padding-top:40px; float:left;}
+.banner-li2 .libox-a a{background:#f47866; font-size:22px; color:#fff; display:block; width:160px;line-height:40px; height:40px; text-align:center; text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px; }
+
+.banner-li3{ background:url(../images/bannerimg_03.jpg) center no-repeat;  width:100%; height:655px;}
+.banner-li3 .div-absolute{position:absolute; top:0;left:0px;padding-top:210px;}
+.banner-li3 .libox-cnt{ float:left; width:350px;}
+.banner-li3 .libox-cnt p{text-align:left; font-size:20px; color:#212121; line-height:32px; }
+.banner-li3 .qr-code{ float:left; padding-top:20px;}
+.banner-li3 .qr-code img{ width:100px;  float:left;}
+.banner-li3 .libox-title{ float:left;padding-top:40px; width:100%; text-align:left;}
+.banner-li3 .libox-title p{font-size:35px; color:#212121; text-align:left;}
+.banner-li3 .libox-title p strong{ font-weight:normal; font-style:normal; float:left;}
+.banner-li3 .libox-title p span{ color:#f47866; float:left;}
+.banner-li3 .libox-title p  b{font-weight:normal; font-style:normal; float:left; display:block; vertical-align:top; margin:8px 5px 0 25px;}
+.banner-li3 .libox-title p  i{font-weight:normal; font-style:normal; float:left; display:block; vertical-align:top; margin:13px 25px 0 7px;}
+.banner-li3 .libox-a { float:left;padding-top:60px;}
+.banner-li3 .libox-a a{background:#f47866; font-size:22px; color:#fff; display:block; width:160px;line-height:40px; height:40px; text-align:center; text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px; }
+
+/** 商城 **/
+.emeker-mall{ background:#fff; height:585px; width:100%; clear:both; overflow:hidden;}
+.mall-cnt{ position:relative; height:100%;}
+.mall-cnt .mall-title{color:#212121;padding-top:110px; }
+.mall-cnt .mall-title p{font-size:24px; line-height:40px;}
+.mall-cnt .mall-title p span{ color:#f47866; padding:0 5px;}
+.mall-cnt .mall-line{  border-top: solid 2px #565050; width:135px; height:0px; line-height:0px; margin:18px 0 15px 0; text-align:left;}
+.mall-cnt .mall-content{ width:572px;  text-align:left;}
+.mall-cnt .mall-content p{text-align:left;font-size:16px;color:#212121; line-height:36px;}
+.mall-cnt .mall-a{ margin-top:4%;}
+.mall-cnt .mall-a a{background:#394373; border: solid 1px #394373; font-size:16px; color:#fff; display:block; width:110px; height:36px; text-align:center; text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;}
+.mall-cnt .mall-a a span{ line-height:36px; float:left; margin-left:16px;}
+.mall-cnt .mall-a a i{ font-weight:normal; font-style:normal; float:left; display:block; margin-left:6px; vertical-align:top;margin-top:11px;_margin-top:7px; background:url(../images/emekerimg_04_01.png) center center no-repeat; width:11px; height:17px; }
+.mall-cnt .mall-a a:hover{ background:#e76d60; border: solid 1px #e76d60;}
+.mall-cnt .mall-img{ position:absolute; right:0px; bottom:0;}
+
+/** road-box **/
+.road-div{ background:#eaa79c; height:440px; width:100%; clear:both;}
+.road-div .road-box{ width:1024px; height:auto; margin:0 auto;padding-top:55px;}
+.road-box .road-div1{ float:left; width:500px; height:320px; text-align:center;position:relative; z-index:10; }
+.road-box .road-div2{ float:left; width:500px;height:320px; margin:0 0 0 24px;position:relative;z-index:10;}
+.road-box .road-div3{ float:right; width:334px;height:355px;position:relative;z-index:10;}
+.road-box .road-div1 .road-cnt,.road-box .road-div2 .road-cnt,.road-box .road-div3 .road-cnt{ position:absolute;top:0; left:0; width:100%; height:auto; z-index:100;}
+.road-box .road-div1 .road-img,.road-box .road-div2 .road-img,.road-box .road-div3 .road-img{ width:100%; position:relative; z-index:11; }
+.road-div1 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:12%; text-align:center;}
+.road-div1 .road-line{border-top: solid 2px #212121; width:45%; height:0px; line-height:0px; margin:15px  auto 15px auto; text-align:left;}
+.road-div1 .road-content{ text-align:center; width:96%; margin:0 auto 9%  auto;}
+.road-div1 .road-content p{font-size:16px; line-height:30px; color:#212121;}
+.road-div2 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:12%; text-align:center;}
+.road-div2 .road-line{border-top: solid 2px #212121; width:45%; height:0px; line-height0px; margin:15px auto 15px auto; text-align:left;}
+.road-div2 .road-content{ text-align:center; width:96%; margin:0 auto 9%  auto;}
+.road-div2 .road-content p{font-size:16px; line-height:30px; color:#212121;}
+.road-div3 h2{font-size:24px; line-height:40px; font-weight:600; color:#212121; padding-top:20%; text-align:center;}
+.road-div3 .road-line{border-top: solid 2px #212121; width:45%; height:0px; line-height:0px; margin:15px  auto 15px auto;text-align:left;}
+.road-div3 .road-content{ text-align:center; width:96%; margin:0 auto 13%  auto;}
+.road-div3 .road-content p{font-size:16px; line-height:30px; color:#212121;}
+.road-div1 .road-a a,.road-div2 .road-a a,.road-div3 .road-a a{background:#394373; border:solid 1px #394373;font-size:16px; color:#fff; display:block; width:110px; height:36px; text-align:left; text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;margin:0 auto;}
+.road-div1 .road-a a span,.road-div2 .road-a a span,.road-div3 .road-a a span{ display:block; line-height:36px; float:left;margin-left:16%; _margin-left:4%;}
+.road-div1 .road-a a i,.road-div2 .road-a a i,.road-div3 .road-a a i{display:block;font-weight:normal; font-style:normal; margin-left:4%; vertical-align:top;margin-top:10px;_margin-top:7px;_margin-left:2%; float:left; background:url(../images/emekerimg_04_01.png) center center no-repeat; width:11px; height:17px;}
+.road-div1 .road-a a:hover,.road-div2 .road-a a:hover,.road-div3 .road-a a:hover{ background:#e76d60; border: solid 1px #e76d60;}
+
+
+

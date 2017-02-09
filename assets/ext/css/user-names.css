@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+body{ background:#fff;font-size:62.5%;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin:0;padding:0;border:0;outline:0}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;clear:both}
+img {border:0; vertical-align:middle;}
+hr {-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+pre{overflow:auto;white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+dfn{font-style:italic}
+q:before,q:after{content:''}
+ode, kbd, pre, samp{font-family:monospace;}
+audio, canvas, progress, video {display:inline-block;vertical-align:baseline}
+audio:not([controls]) {display:none;height:0}
+svg:not(:root) {overflow:hidden}
+ol,ul,li,dl dd, dt{list-style:none;border:0}
+ul, ol{list-style:none outside none}
+address,caption,cite,code,dfn,em,strong,th,var ,i{font-weight: normal;font-style: normal;}
+h1,h2,h3,h4,h5,h6,strong {font-weight: normal;font-size: 100%;}
+table{border-collapse:collapse;border-spacing:0}
+caption,th {text-align:left;}
+input,select{vertical-align:middle;}
+input,button,textarea,select,optgroup,option {font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input[type="submit"],input[type="button"]{cursor: pointer;}
+button,input,select,textarea{margin:0px; padding:0px;}
+input[type="text"], input[type="password"], input[type="submit"], input[type="button"], textarea{outline-style:none; -webkit-appearance:none;}
+textarea{overflow:auto;resize:none;}
+button {overflow:visible}
+button, select{text-transform:none}
+input {line-height:normal}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {height:auto}
+input[type=checkbox], input[type=radio] {cursor: pointer; padding: 0;-webkit-box-sizing: border-box;box-sizing: border-box}
+input[type="search"] {-webkit-appearance:textfield;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {-webkit-appearance:none}
+textarea {overflow:auto;resize:none;}
+.clearfix:after {content: "";visibility: hidden;display: block;font-size:0;clear: both;height:0;}
+* html .clearfix {zoom:1;} 
+*:first-child+html .clearfix {zoom:1;} 
+a{border:0;text-decoration:none;-webkit-tap-highlight-color:transparent;}
+a:hover,a:active,a:focus {text-decoration:underline;outline:0} 
+
+/** header **/
+.header{ background:#2e353c; float:left; width:100%; height:5em; position:relative;}
+.header .header-img{ position:absolute; left:5%;bottom:15%;}
+.header .header-img img{ width:14em;}
+
+/** employee-registration **/
+.employee-registration{ float:left; width:100%; height:auto;}
+.employee-registration dl{ float:left; width:90%;height:auto; margin-left:5%;}
+.employee-registration dl dt{ float:left; width:100%; height:auto; padding:2em 0 1.5em 0;}
+.employee-registration dl dt i{ float:left; width:1.0em; height:1.0em; background:#d2d2d2;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%; vertical-align:top; margin-top:0.4em; margin-right:2%;}
+.employee-registration dl dt span{ float:left; width:90%; font-size:1.8em; color:#9d9d9d;}
+.employee-registration dl dd{ float:left; width:100%; margin-bottom:2.5em; position:relative;}
+.employee-registration dl dd p{ position:absolute; left:2%; bottom:-1.5em; width:98%; text-align:left;color: #f9644e; font-size:1.2em;}
+.employee-registration .div-input{ float:left; width:100%; background:#f7f7f7; border:solid 1px #d2d2d2; margin-right:-2px;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;border-radius:0.3em; padding:1.0em 0;}
+.employee-registration .div-input input{ border:none; background:none;font-size:1.8em;  width:96%; padding:0em 2%; height:auto;}
+.employee-registration .input-left{float:left; width:60%; background:#f7f7f7; border:solid 1px #d2d2d2; margin-right:-2px;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;border-radius:0.3em; padding:1.0em 0;}
+.employee-registration .input-left input{ border:none; background:none;font-size:1.8em;  width:96%; padding:0 2%; height:auto;}
+.employee-registration .div-a{ float:right; width:36%; background:#f4f4fd;}
+.employee-registration .div-a a{ display:block; background:#f9644e; border: solid 1px #f9644e; height:auto;color:#fff; font-size:1.5em; text-align:center; padding:0.8em 0; text-decoration:none;-moz-border-radius:0.2em;-webkit-border-radius:0.2em;border-radius:0.2em;}
+.employee-registration .div-img{ float:right; width:36%;}
+.employee-registration .div-img img{ width:100%;height:4.6em;}
+.employee-registration .div-a.on a{ background:#d2d2d2; border: solid 1px #d2d2d2;}
+.employee-registration .div-button{ background:#d2d2d2; float:left; width:100%;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;border-radius:0.3em;}
+.employee-registration .div-button input{ width:100%; border:none; background:none; text-align:center;font-size:1.8em; color:#fff;line-height:2.6em; height:2.6em;}
+.employee-registration .div-button.on{ background:#f9644e;}
+/**placeholder类 **/
+.employee-registration .div-input input::-webkit-input-placeholder,.employee-registration .input-left input::-webkit-input-placeholder {color:#909090;}
+.employee-registration .div-input input:-moz-placeholder,.employee-registration .input-left input:-moz-placeholder{color:#909090;}
+.employee-registration .div-input input::-moz-placeholder,.employee-registration .input-left input::-moz-placeholder{color:#909090;}
+.employee-registration .div-input input:-ms-input-placeholder,.employee-registration .input-left input:-ms-input-placeholder {color:#909090;}
+
+
